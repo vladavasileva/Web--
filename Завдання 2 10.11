@@ -1,0 +1,4 @@
+let num = {}
+function A() {return num;}
+function B() {return num;}
+alert (new A() == new B());
