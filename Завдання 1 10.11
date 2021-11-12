@@ -1,0 +1,10 @@
+function Buff(startingValue){
+  this.value = startingValue;
+  this.read = function() {
+    this.value += prompt('Add:', 0);
+  };
+}
+let buff = new Buff(0);
+buff.read();
+buff.read();
+alert(buff.value); 
